@@ -13,8 +13,4 @@ public class SimpleWalletApplication {
 		SpringApplication.run(SimpleWalletApplication.class, args);
 	}
 
-	@Bean
-	public PasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
 }
